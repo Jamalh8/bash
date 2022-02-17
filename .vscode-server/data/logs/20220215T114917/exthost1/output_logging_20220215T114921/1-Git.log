@@ -1,0 +1,16 @@
+[2022-02-15T11:49:21.851Z] Validating found git in: git
+[2022-02-15T11:49:21.919Z] Using git 2.25.1 from git
+[2022-02-15T11:49:22.049Z] > git rev-parse --git-dir [3ms]
+[2022-02-15T11:49:22.055Z] Open repository: /home/jamal/flask
+[2022-02-15T11:49:22.082Z] > git symbolic-ref --short HEAD [5ms]
+[2022-02-15T11:49:22.093Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [7ms]
+[2022-02-15T11:49:22.102Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-02-15T11:49:22.103Z] > git rev-parse --git-dir [10ms]
+[2022-02-15T11:49:22.106Z] Open repository: /home/jamal/selenium-example
+[2022-02-15T11:49:22.118Z] > git remote --verbose [17ms]
+[2022-02-15T11:49:22.125Z] > git symbolic-ref --short HEAD [7ms]
+[2022-02-15T11:49:22.130Z] > git config --get commit.template [5ms]
+[2022-02-15T11:49:22.133Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [5ms]
+[2022-02-15T11:49:22.140Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-02-15T11:49:22.144Z] > git remote --verbose [5ms]
+[2022-02-15T11:49:22.152Z] > git config --get commit.template [3ms]

@@ -1,0 +1,20 @@
+[2022-02-15T09:16:07.667Z] Validating found git in: git
+[2022-02-15T09:16:07.762Z] Using git 2.25.1 from git
+[2022-02-15T09:16:07.881Z] > git rev-parse --git-dir [32ms]
+[2022-02-15T09:16:07.891Z] Open repository: /home/jamal/selenium-example
+[2022-02-15T09:16:07.952Z] > git symbolic-ref --short HEAD [15ms]
+[2022-02-15T09:16:08.002Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [47ms]
+[2022-02-15T09:16:08.022Z] > git remote --verbose [10ms]
+[2022-02-15T09:16:08.023Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+[2022-02-15T09:16:08.038Z] > git config --get commit.template [6ms]
+[2022-02-15T09:16:08.371Z] > git ls-files --stage -- /home/jamal/selenium-example/tests/test_int.py [4ms]
+[2022-02-15T09:16:08.375Z] > git cat-file -s b5678f98550b499fa54e3e19102684e39c648ee0 [1ms]
+[2022-02-15T09:22:29.208Z] > git ls-files --stage -- /home/jamal/selenium-example/tests/test_int.py [4ms]
+[2022-02-15T09:22:29.213Z] > git cat-file -s b5678f98550b499fa54e3e19102684e39c648ee0 [2ms]
+[2022-02-15T09:42:30.441Z] > git symbolic-ref --short HEAD [3ms]
+[2022-02-15T09:42:30.452Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [3ms]
+[2022-02-15T09:42:30.461Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-02-15T09:42:30.465Z] > git remote --verbose [7ms]
+[2022-02-15T09:42:30.475Z] > git config --get commit.template [2ms]
+[2022-02-15T09:57:25.673Z] > git ls-files --stage -- /home/jamal/selenium-example/tests/test_int.py [3ms]
+[2022-02-15T09:57:25.679Z] > git cat-file -s b5678f98550b499fa54e3e19102684e39c648ee0 [1ms]

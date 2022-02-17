@@ -1,0 +1,9 @@
+[2022-02-14T16:11:12.137Z] Validating found git in: git
+[2022-02-14T16:11:12.206Z] Using git 2.25.1 from git
+[2022-02-14T16:11:12.257Z] > git rev-parse --git-dir [5ms]
+[2022-02-14T16:11:12.264Z] Open repository: /home/jamal/selenium-example
+[2022-02-14T16:11:12.320Z] > git symbolic-ref --short HEAD [22ms]
+[2022-02-14T16:11:12.333Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [9ms]
+[2022-02-14T16:11:12.342Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-02-14T16:11:12.353Z] > git remote --verbose [13ms]
+[2022-02-14T16:11:12.368Z] > git config --get commit.template [8ms]
